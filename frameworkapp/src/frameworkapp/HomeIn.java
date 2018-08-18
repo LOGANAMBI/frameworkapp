@@ -9,7 +9,7 @@ public class HomeIn {
 	 
 	 public static WebElement lnk_MyAccount(WebDriver driver){
 	 
-	    element = driver.findElement(By.xpath("//*[@id=\"nav-signin-tooltip\"]/a/span"));
+	    element = driver.findElement(By.xpath("myaccount"));
 	 
 	    return element;
 	 
