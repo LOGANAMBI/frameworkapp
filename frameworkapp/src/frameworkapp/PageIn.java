@@ -28,7 +28,7 @@ LogIn.txtbx_Password(driver).sendKeys("Test@123");
 
 LogIn.btn_LogIn(driver).click();
 
-System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
+//System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
 
 HomeIn.lnk_LogOut(driver).click(); 
 
