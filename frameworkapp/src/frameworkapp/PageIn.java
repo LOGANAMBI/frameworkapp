@@ -18,8 +18,6 @@ driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 driver.get("https://www.amazon.com.au/");
 
-// Use page Object library now
-
 HomeIn.lnk_MyAccount(driver).click();
 
 LogIn.txtbx_UserName(driver).sendKeys("1234567");
